@@ -1055,3 +1055,38 @@
     color: #ffffffbd;
 }
 
+.paralax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url("/img/contact-bg.webp") ;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* filter: brightness(50%);
+    -webkit-filter: brightness(50%); */
+} 
+
+
+.fa-4x {
+    font-size: 4em;
+}
+
+.responsive-logo {
+    width: 140px;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+        .responsive-logo {
+        width: 120px;
+        }
+
+
+    }
+
+    @media (max-width: 480px) {
+        .responsive-logo {
+        width: 120px;
+        }
+    }
