@@ -1056,7 +1056,7 @@
 }
 
 .paralax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url("/img/contact-bg.webp") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url("../img/contact-bg.webp") ;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -1077,16 +1077,30 @@
     height: auto;
 }
 
+#responsive-heading {
+    font-size: 3rem; /* Ukuran default untuk layar besar */
+}
+
     @media (max-width: 768px) {
         .responsive-logo {
         width: 120px;
         }
 
+        #responsive-heading {
+            font-size: 2rem; /* Ukuran lebih kecil untuk layar kecil */
+        }
 
+        .team-foto{
+            top: -100px;
+            left: 62px;
+        }
     }
 
     @media (max-width: 480px) {
         .responsive-logo {
         width: 120px;
+        }
+        #responsive-heading {
+            font-size: 1.5rem; /* Ukuran lebih kecil lagi untuk layar sangat kecil */
         }
     }
